@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#a{
+    text-decoration: none;
+    font-size:x-large;
+    margin: 25px;
+    border-color: rgb(200, 226, 174);
+    background-color: #FAFAFA;
+    padding: 5px;
+    color: #e77917;
+    }
+#a:hover{
+    padding: 5px;
+    color: rgb(48, 112, 60);
+}
+
+.div1{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color:#FAFAFA ;
+    height: 90px
+}
+#logo{
+    transform: translate(-40%,-29.7%);
+    height: 200px;  
+    
+}
+#div2{
+    text-align: center;
+    color: #04624a;
+    margin-top: 0px;
+    background-color: #96f9df;
+    width: 600px;
+    height: 60px;
+    margin-left: 30%;
+    border: #96f9df;
+    border-radius: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+#inb {
+    width: 250px;       
+    height: 35px;       
+    padding: 10px;      
+    font-size: 18px;
+    
+    border: #96f9f9; 
+    border-radius: 15px;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+#img3{
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#img3:hover{
+    transform: scale(1.1);
+}
+#div4{
+    margin: 40px;
+}
+#div5{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+#div6{
+    background-color: #e77917;
+    height: 80px;
+    margin-top: 20px;
+}
+#login-form {
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form h3 {
+    text-align: center;
+    color: #e77917;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e77917;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#div6h{
+    margin-left: 450px;
+    margin-top: 0px;
+    font-size: x-large;
+}
+#b{
+    font-size: xx-large;
+}
+.orange-div {
+position: sticky;
+top: 0;
+background-color: orange;
+color: white;
+text-align: center;
+padding: 10px;
+font-family: Arial, sans-serif;
+font-size: 14px;
+margin-top: 20px;
+height: 30px;
+}
+

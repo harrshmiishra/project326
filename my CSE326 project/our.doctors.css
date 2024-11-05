@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#a {
+    text-decoration: none;
+    font-size: x-large;
+    margin: 25px;
+    background-color: #FAFAFA;
+    padding: 5px;
+    color: #e77917;
+}
+#a:hover {
+    color: rgb(48, 112, 60);
+}
+.div1 {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+    height: 90px;
+}
+#logo {
+    transform: translate(-40%, -29.7%);
+    height: 200px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.container {
+    padding: 20px;
+    
+}
+.doctors-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.doctors-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 0;
+}
+.doctors-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.doctor-card {
+    background-color: #e0f7fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    width: calc(33.333% - 30px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.doctor-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.doctor-card h3 {
+    color: #00796b;
+}
+.doctor-card p {
+    color: #555;
+    padding: 10px;
+}
+.doctor-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: auto;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.doctor-card button:hover {
+    background-color: #45a049;
+}

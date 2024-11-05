@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - HappyLife</title>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    <nav class="div1">
+        <a href="home.html">
+        <img src="happylife-high-resolution-logo-removebg-preview.png"   alt="Logo" id="logo" height="110px" ></a>
+        <a href="home.html" id="a">Home</a>
+        <a href="/our.doctors.html" id="a">Our Doctors</a>
+        <a href="/appointment.html" id="a">Book Appointment</a>
+        <a href="/about us.html" id="a">About us</a>
+        <a href="contact.html" id="a">Contact us</a>
+    </nav>
+
+    <form class="appointment-form" id="frm">
+        <h1>Book your appointment now!</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="doctors">Select Doctor</label>
+        <select id="doctors" name="doctors">
+            <option>----Select the doctor----</option>
+            <option>Yoga Guru</option>
+            <option>Ayurveda Guru</option>
+            <option>Dermatologist</option>
+            <option>Neurologist</option>
+            <option>Psychiatrist</option>
+            <option>Cardiologist</option>
+        </select>
+        <label for="health-report">Upload previous health report</label>
+        <input type="file" id="health-report" name="health-report">
+
+        <label for="appointment-date">Appointment date</label>
+        <input type="date" id="appointment-date" name="appointment-date">
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+
+        <div class="gender">
+            <label>Gender</label>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="reset" class="reset-btn">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

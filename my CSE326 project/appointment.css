@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    margin: 0px;
+    padding: 0;
+    background-image: url('/hosssss.webp');
+    }
+#a {
+    text-decoration: none;
+    font-size: x-large;
+    margin: 25px;
+    background-color: #FAFAFA;
+    padding: 5px;
+    color: #e77917;
+}
+#a:hover {
+    color: rgb(48, 112, 60);
+}
+.div1 {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+    height: 90px;
+}
+#logo {
+    transform: translate(-40%, -29.7%);
+    height: 200px;
+}
+#frm{
+    margin-top: 10px;
+}
+.appointment-form {
+    background-color: #a7ffeb;
+    
+    padding: 30px;
+    border-radius: 30px;
+    width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.appointment-form h1 {
+    text-align: center;
+    color: #00796b;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.appointment-form label {
+    color: #004d40;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.appointment-form input,
+.appointment-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #004d40;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.appointment-form input[type="file"] {
+    padding: 6px;
+}
+.appointment-form input[type="radio"] {
+    margin-right: 5px;
+}
+.appointment-form .gender {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.appointment-form .gender div {
+    display: flex;
+    align-items: center;
+}
+.appointment-form button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.appointment-form .submit-btn {
+    background-color: #00796b;
+    color: white;
+}
+.appointment-form .submit-btn:hover {
+    background-color: #004d40;
+}
+.appointment-form .reset-btn {
+    background-color: #b2dfdb;
+    color: #004d40;
+}
+.appointment-form .reset-btn:hover {
+    background-color: #80cbc4;
+}
+.appointment-form .button-group {
+    display: flex;
+    justify-content: space-between;
+}

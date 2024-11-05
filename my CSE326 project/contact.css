@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#a {
+    text-decoration: none;
+    font-size: x-large;
+    margin: 25px;
+    background-color: #FAFAFA;
+    padding: 5px;
+    color: #e77917;
+}
+#a:hover {
+    color: rgb(48, 112, 60);
+}
+.div1 {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+    height: 90px;
+}
+#logo {
+    transform: translate(-40%, -29.7%);
+    height: 200px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7f4;
+    color: #333;
+    justify-content: center;
+}
+.contact-container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ccf2f0;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #444;
+}
+.contact-info {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.contact-info p {
+    margin: 8px 0;
+    color: #333;
+}
+.contact-form {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #eafaf8;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #444;
+}
+.contact-form input[type="text"],
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+.contact-form textarea {
+    height: 80px;
+    resize: vertical;
+}
+.contact-form button {
+    background-color: #ff9f80;
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 1em;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+    margin-right: 10px;
+}
+.contact-form button:hover {
+    background-color: #ff7043;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.contact-form .reset-btn {
+    background-color: #cccccc;
+    color: #333;
+}
+.contact-form .reset-btn:hover {
+    background-color: #b3b3b3;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
